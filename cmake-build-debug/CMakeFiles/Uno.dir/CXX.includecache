@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bdelbreuve/ISEN/AP4/C++/Uno/Carte.cc
+iostream
+-
+string
+-
+stdio.h
+-
+stdlib.h
+-
+
+/home/bdelbreuve/ISEN/AP4/C++/Uno/JeuDeCarte.cc
+iostream
+-
+string
+-
+Carte.cc
+/home/bdelbreuve/ISEN/AP4/C++/Uno/Carte.cc
+vector
+-
+
+/home/bdelbreuve/ISEN/AP4/C++/Uno/main.cpp
+iostream
+-
+string
+-
+JeuDeCarte.cc
+/home/bdelbreuve/ISEN/AP4/C++/Uno/JeuDeCarte.cc
+Carte.cc
+/home/bdelbreuve/ISEN/AP4/C++/Uno/Carte.cc
+
